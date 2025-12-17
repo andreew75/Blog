@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #6295bd;
+    font-family: Verdana, Geneva, serif;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: aliceblue;
+}
+
+.content .wrap {
+    background: azure;
+    /*padding: 40px;*/
+    box-sizing: border-box;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+}
+
+a {
+    color: #87a9d3;
+    text-decoration: none;
+    padding: 20px;
+    font-width: condensed;
+}
+
+.header {
+    background: #0a3557;
+    padding: 0;
+}
+
+.mainmenu {
+    color: aliceblue;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 18px;
+    gap: 20px;
+ }
+
+.sidebar ul {
+    width: 280px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.sidebar a {
+    padding: 20px;
+    display: block;
+    background: #0a3557;
+    border: 1px solid #fff;
+}
+
+.selected {
+    padding: 20px;
+    display: block;
+    color: white;
+    background: #608bac;
+    border: 1px solid #fff;
+}
+.main-pagination li {
+    border: 3px solid #e4e6ee;
+    margin-bottom: 10px;
+}
+
+.main li {
+    border: 3px solid #e4e6ee;
+    margin-bottom: 10px;
+    background-color: #d3ebf0;
+}
+
+.image {
+    float: left;
+    margin-right: 20px;
+    max-width: 50%;
+}
+
+.first {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #0a3557;
+    color: white;
+    margin: 0
+}
+
+.date {
+    padding: 10px 20px;
+    font-size: 12px;
+    background: #0a3557;
+    color: white;
+    margin: 0
+}
+
+.text {
+    padding: 20px 20px 0;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.list-page {
+    display: flex;
+    justify-content: center;
+}
+
+.page-num-selected {
+    background: #0a3557!important;
+    padding: 20px;
+    color: #ffffff;
+ }
+
+.list-page a{
+    background: #87a9d3;
+    padding: 20px;
+    display: block;
+    color: white;
+}
+
+.page-num {
+    margin: 3px;
+    font-weight: bold;
+}
+
+.post {
+    padding: 40px;
+    text-align: justify;
+}
+
+form {
+    margin: 20px;
+}
+
+.form {
+    margin: 40px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 40px;
+    cursor: pointer;
+    background: #0a3557;
+    color: #95b3d8;
+    font-size: 18px;
+}
+
+input {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 10px 40px;
+}
+
+input[type='text'], input[type='password'] {
+    width: 100%;
+}
+
+/*input[type='file'] {*/
+/*    !*padding: 10px 40px;*!*/
+/*    color: #0a3557;*/
+/*    background: #0a3557;*/
+/*}*/
+
+select {
+    padding: 10px 10px;
+}
+
+.btn-logout {
+    background: #608bac;
+    color: #123454;
+    cursor: pointer;
+    border: 0;
+    font-size: 16px;
+    margin-left: 300px;
+}
+
+.last-user {
+    /*margin-right: 10px;*/
+}
